@@ -1,0 +1,98 @@
+/* ======== GLOBAL ======== */
+body {
+    background-color: #f5f6fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ======== NAVBAR ======== */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ======== HERO SECTION ======== */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #005bea, #00c6fb);
+    color: white;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero p {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* ======== SKILL BOXES ======== */
+.skill-box {
+    background-color: #005bea;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+    background-color: #003f9e;
+}
+
+/* ======== PROJECT CARDS ======== */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+}
+
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body h5 {
+    font-weight: 700;
+}
+
+/* ======== CONTACT FORM ======== */
+form input, form textarea {
+    border-radius: 8px !important;
+    padding: 10px;
+}
+
+form button {
+    width: 150px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+}
